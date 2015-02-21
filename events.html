@@ -1,0 +1,208 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<title>Events - Health and Sanitation Event Tracker</title>
+
+		<!-- Main Styslesheet -->
+		<link rel="stylesheet" href="css/style.css" />
+		<!-- Bootstrap CSS -->
+		<link href="bootstrap/bootstrap.css" rel="stylesheet">
+		<!-- Font-Awesome Icons -->
+		<link href="font_awesome/css/font-awesome.css" rel="stylesheet">
+
+		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+		<script src="bootstrap/html5shiv.min.js"></script>
+		<script src="bootstrap/respond.min.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div id="bodyWrapper">
+
+			<header>
+				<div class="container">
+					<div class="row">
+						<div>
+							<h2><i class="fa fa-users"></i>&nbsp;&nbsp;Health and Sanitation Updates Tracker</h2>
+						</div>
+					</div><!--row -->
+				</div><!--container -->
+			</header>
+
+			<nav  class="navbar navbar-default" role="navigation">
+				<div class="container">
+					<div class="row">
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle" data-toggle="collapse"
+							data-target="#example-navbar-collapse">
+								<span class="sr-only">Toggle navigation</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+						</div>
+						<div class="collapse navbar-collapse" id="example-navbar-collapse">
+							<ul class="nav navbar-nav">
+								<li>
+									<a href="index.html">HOME</a>
+								</li>
+								<li>
+									<a href="events.html">EVENT</a>
+								</li>
+								<li>
+									<a href="tableData.html">TABULAR DATA</a>
+								</li>
+								<li>
+									<a href="mapData.html">GRAPHICAL DATA</a>
+								</li>
+
+							</ul>
+						</div>
+					</div><!--row -->
+				</div><!--container -->
+			</nav>
+
+			<div id="mainContent">
+				<div class="container">
+					<div style="margin-top: -30px" class="row">
+						<h3 style="font-family: cursive;color: rgb(245, 109, 26);">Submit Event</h3>
+						<hr>
+						<form class="bs-example bs-example-form" role="form" name="registerevent" method="post" action="/location">
+
+							<div class="input-group">
+								<span class="input-group-addon"><b>Event Name</b></span>
+								<input type="text" class="form-control" id="eventname" >
+							</div>
+							<br>
+							<div class="input-group">
+								<span class="input-group-addon"><b>Event Location</b></span>
+								<input type="text" class="form-control"name="eventlocation" >
+							</div>
+							<br>
+							<div class="input-group">
+								<span class="input-group-addon"><b>Event Date</b></span>
+								<input type="date" class="form-control"name="eventdate" >
+							</div>
+							<br>
+							<div class="input-group">
+								<span class="input-group-addon"><b>Start Time</b></span>
+								<input type="text" class="form-control"name="starttime">
+							</div>
+							<br>
+							<div class="input-group">
+								<span class="input-group-addon"><b>End Time</b></span>
+								<input type="text" class="form-control"name="endtime">
+							</div>
+							<br>
+							<div class="input-group">
+								<span class="input-group-addon"><b>Organizers</b></span>
+								<input type="text" class="form-control"name="organizer">
+							</div>
+							<br>
+							<div class="input-group">
+								<span class="input-group-addon"><b>Other Details</b></span>
+								<textarea id="otherDetails" class="form-control" rows="5"></textarea>
+							</div>
+							<br>
+							<div class="submit">
+								<button type="submit" class="btn btn-danger">
+									Submit
+								</button>
+							</div>
+							<br>
+						</form>
+
+						<div>
+							<h3 style="font-family: cursive;color: rgb(245, 109, 26);">Current Event</h3>
+							<hr>
+
+							<table  class="table table-bordered  table-hover table-striped">
+								<tr>
+									<th>S.N.</th>
+									<th>Event Name</th>
+									<th>Event Location</th>
+									<th>Event Date</th>
+									<th>Start Time</th>
+									<th>End Time</th>
+									<th>Organizers</th>
+									<th>Other Details</th>
+								</tr>
+								<tr>
+									<td>1</td>
+									<td>Bagmati Safai Karyakram</td>
+									<td>Kathmandu</td>
+									<td>2/21/2015</td>
+									<td>10 AM</td>
+									<td>4 PM</td>
+									<td>DWIT Social Service Club</td>
+									<td>
+									<ul style="list-style: none">
+										<li>
+											Hand Gloves and Masks will be provided
+										</li>
+										<li>
+											Lunch will be provided
+										</li>
+									</ul></td>
+								</tr>
+								<tr>
+									<td>2</td>
+									<td>Bagmati Safai Karyakram</td>
+									<td>Kathmandu</td>
+									<td>2/21/2015</td>
+									<td>10 AM</td>
+									<td>4 PM</td>
+									<td>DWIT Social Service Club</td>
+									<td>
+									<ul style="list-style: none">
+										<li>
+											Hand Gloves and Masks will be provided
+										</li>
+										<li>
+											Lunch will be provided
+										</li>
+									</ul></td>
+								</tr>
+							</table>
+						</div>
+
+					</div><!-- row -->
+				</div><!-- container -->
+			</div><!-- mainContent -->
+
+			<footer>
+				<div class="container">
+					<div class="row">
+						<div id="liscene">
+							<p>
+								No any copyright &copy;. This application is under  OPEN LISCENSE.
+							</p>
+						</div>
+					</div><!-- row -->
+				</div><!-- container -->
+			</footer>
+
+		</div><!-- bodyWrapper -->
+
+		<!-- Angular JavaScript -->
+		<script src="js/angular.min.js"></script>
+		<script src="js/angular-route.min.js"></script>
+		<!-- Main Application -->
+		<script src="js/mainApp.js"></script>
+		<!-- Controllers -->
+		<script src="js/studentController.js"></script>
+		<!-- Main Script -->
+		<script src="js/mainScript.js"></script>
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script src="js/jquery.min.js"></script>
+		<!-- Include all compiled plugins (below), or include individual files as needed -->
+		<script src="js/bootstrap.js"></script>
+
+	</body>
+</html>

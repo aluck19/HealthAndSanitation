@@ -1,0 +1,57 @@
+body {
+	font-family: Georgia, sans-serif;
+	font-size: 16px;
+	color: #000;
+	margin: 0;
+	height: 100%;
+}
+div, dl, dt, dd, ul, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td {
+	margin: 0;
+	padding: 0;
+}
+
+a.ui-link:hover {
+	color: #15A781;
+	text-decoration: underline;
+}
+a.ui-link {
+	color: #15A781;
+	text-decoration: none;
+}
+header {
+	padding: 10px;
+	background: #15A781;
+	font-family: cursive;
+	border-top: 5px double #000000;
+	border-bottom: 5px double #000000;
+	text-align: center;
+	color: #fff;
+}
+#bodyWrapper {
+	min-height: 100%;
+	position: relative;
+}
+#mainContent {
+	padding: 10px;
+	background: #fff;
+	padding-bottom: 40px; /* Height of the footer element */
+}
+footer {
+	width: 100%;
+	height: 40px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	background: #15A781;
+	color: #fff;
+}
+div#liscene {
+	position: relative;
+	top: 10px;
+	text-align: center;
+}
+
+#indexContent {
+	margin-top: 100px;
+}
+

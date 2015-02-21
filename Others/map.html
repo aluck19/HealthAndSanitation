@@ -1,0 +1,61 @@
+<html>
+	<head>
+		<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+		<script type="text/javascript">
+			google.load('visualization', '1', {
+				'packages' : ['table', 'map']
+			});
+			//corechart removed//
+			google.setOnLoadCallback(initialize);
+
+			function initialize() {
+				// The URL of the spreadsheet to source data from.
+				var query = new google.visualization.Query('https://spreadsheets.google.com/pub?key=pCQbetd-CptF0r8qmCOlZGg');
+				query.send(draw);
+			}
+
+			function draw(response) {
+				if (response.isError()) {
+					alert('Error in query');
+				}
+
+				var ticketsData = response.getDataTable();
+
+				var geoData = google.visualization.arrayToDataTable([['Lat', 'Lon', 'District', 'population', 'watercoverage', 'sanitation'], [26.98, 87.33, 'Dhankuta', 194274, 76.42, 48.64], [27.7, 85.33, 'Kathmandu', 1432290, 93.2, 93.77], [28.26, 83.97, 'Pokhara', 112345, 85.2, 85.2], [28.6, 81.63, 'Birendranagar', 123456, 75.23, 45.34], [29.26, 80.93, 'Dipayal', 111234, 75.43, 50.4]]);
+
+				var geoView = new google.visualization.DataView(geoData);
+				geoView.setColumns([0, 1]);
+
+				var table = new google.visualization.Table(document.getElementById('table_div'));
+				table.draw(geoData, {
+					showRowNumber : false
+				});
+
+				var map = new google.visualization.Map(document.getElementById('map_div'));
+				map.draw(geoView, {
+					showTip : true
+				});
+
+				// Set a 'select' event listener for the table.
+				// When the table is selected, we set the selection on the map.
+				google.visualization.events.addListener(table, 'select', function() {
+					map.setSelection(table.getSelection());
+				});
+
+				// Set a 'select' event listener for the map.
+				// When the map is selected, we set the selection on the table.
+				google.visualization.events.addListener(map, 'select', function() {
+					table.setSelection(map.getSelection());
+				});
+			}
+		</script>
+	</head>
+
+	<body>
+
+		<div id="map_div" style="width: 400px; height: 300;"></div>
+
+		<div id="table_div"></div>
+
+	</body>
+</html>

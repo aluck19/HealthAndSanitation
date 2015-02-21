@@ -1,0 +1,43 @@
+<html>
+	<head>
+		<!--Load the AJAX API-->
+		<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+		<script type="text/javascript">
+			// Load the Visualization API and the piechart package.
+			google.load('visualization', '1.0', {
+				'packages' : ['corechart']
+			});
+
+			// Set a callback to run when the Google Visualization API is loaded.
+			google.setOnLoadCallback(drawChart);
+
+			// Callback that creates and populates a data table,
+			// instantiates the pie chart, passes in the data and
+			// draws it.
+			function drawChart() {
+
+				// Create the data table.
+				var data = new google.visualization.arrayToDataTable([['District', 'WaterSupply', 'Sanitation'], ['Dhankuta', 76.42, 48.64], ['Kathmandu', 93.2, 93.77], ['Birendranagar', 89.33, 83.69], ['Dipayal', 85.05, 83.08]]);
+
+				var options = {
+					chart : {
+						title : 'Status'
+					},
+					legend : '',
+					hAxis : {
+						minValue : 48.64,
+						maxValue : 93.77
+					},
+					curveType : 'function',
+					pointSize : 20,
+				};
+				var chart = new google.visualization.LineChart(document.getElementById('curve_chart'));
+
+				chart.draw(data, options);
+			}
+		</script>
+	</head>
+	<body>
+		<div id="curve_chart" style="width: 900px; height: 500px"></div>
+	</body>
+</html>

@@ -1,0 +1,1082 @@
+[
+  {
+    "Districts":"Achham",
+    "Sub_Group":"Total Population",
+    "Value":272064
+  },
+  {
+    "Districts":"Achham",
+    "Sub_Group":"Water Coverage Supply (%)",
+    "Value":88.01
+  },
+  {
+    "Districts":"Achham",
+    "Sub_Group":"Sanitation Coverage (%)",
+    "Value":19.08
+  },
+  {
+    "Districts":"Arghakhachi",
+    "Sub_Group":"Total Population",
+    "Value":244257
+  },
+  {
+    "Districts":"Arghakhachi",
+    "Sub_Group":"Water Coverage Supply (%)",
+    "Value":82.97
+  },
+  {
+    "Districts":"Arghakhachi",
+    "Sub_Group":"Sanitation Coverage (%)",
+    "Value":46.2
+  },
+  {
+    "Districts":"Baglung",
+    "Sub_Group":"Total Population",
+    "Value":315702
+  },
+  {
+    "Districts":"Baglung",
+    "Sub_Group":"Water Coverage Supply (%)",
+    "Value":90.87
+  },
+  {
+    "Districts":"Baglung",
+    "Sub_Group":"Sanitation Coverage (%)",
+    "Value":59.32
+  },
+  {
+    "Districts":"Baitadi",
+    "Sub_Group":"Total Population",
+    "Value":275839
+  },
+  {
+    "Districts":"Baitadi",
+    "Sub_Group":"Water Coverage Supply (%)",
+    "Value":89.66
+  },
+  {
+    "Districts":"Baitadi",
+    "Sub_Group":"Sanitation Coverage (%)",
+    "Value":25.59
+  },
+  {
+    "Districts":"Bajhang",
+    "Sub_Group":"Total Population",
+    "Value":198588
+  },
+  {
+    "Districts":"Bajhang",
+    "Sub_Group":"Water Coverage Supply (%)",
+    "Value":58.23
+  },
+  {
+    "Districts":"Bajhang",
+    "Sub_Group":"Sanitation Coverage (%)",
+    "Value":14.03
+  },
+  {
+    "Districts":"Bajura",
+    "Sub_Group":"Total Population",
+    "Value":128590
+  },
+  {
+    "Districts":"Bajura",
+    "Sub_Group":"Water Coverage Supply (%)",
+    "Value":86.82
+  },
+  {
+    "Districts":"Bajura",
+    "Sub_Group":"Sanitation Coverage (%)",
+    "Value":10.57
+  },
+  {
+    "Districts":"Banke",
+    "Sub_Group":"Total Population",
+    "Value":484266
+  },
+  {
+    "Districts":"Banke",
+    "Sub_Group":"Water Coverage Supply (%)",
+    "Value":90.56
+  },
+  {
+    "Districts":"Banke",
+    "Sub_Group":"Sanitation Coverage (%)",
+    "Value":35.97
+  },
+  {
+    "Districts":"Bara",
+    "Sub_Group":"Total Population",
+    "Value":693913
+  },
+  {
+    "Districts":"Bara",
+    "Sub_Group":"Water Coverage Supply (%)",
+    "Value":88.58
+  },
+  {
+    "Districts":"Bara",
+    "Sub_Group":"Sanitation Coverage (%)",
+    "Value":19.06
+  },
+  {
+    "Districts":"Bardiya",
+    "Sub_Group":"Total Population",
+    "Value":474561
+  },
+  {
+    "Districts":"Bardiya",
+    "Sub_Group":"Water Coverage Supply (%)",
+    "Value":82.18
+  },
+  {
+    "Districts":"Bardiya",
+    "Sub_Group":"Sanitation Coverage (%)",
+    "Value":39.16
+  },
+  {
+    "Districts":"Bhaktapur",
+    "Sub_Group":"Total Population",
+    "Value":276577
+  },
+  {
+    "Districts":"Bhaktapur",
+    "Sub_Group":"Water Coverage Supply (%)",
+    "Value":91.66
+  },
+  {
+    "Districts":"Bhaktapur",
+    "Sub_Group":"Sanitation Coverage (%)",
+    "Value":87.1
+  },
+  {
+    "Districts":"Bhojpur",
+    "Sub_Group":"Total Population",
+    "Value":227585
+  },
+  {
+    "Districts":"Bhojpur",
+    "Sub_Group":"Water Coverage Supply (%)",
+    "Value":67
+  },
+  {
+    "Districts":"Bhojpur",
+    "Sub_Group":"Sanitation Coverage (%)",
+    "Value":36.8
+  },
+  {
+    "Districts":"Chitwan",
+    "Sub_Group":"Total Population",
+    "Value":583656
+  },
+  {
+    "Districts":"Chitwan",
+    "Sub_Group":"Water Coverage Supply (%)",
+    "Value":85.05
+  },
+  {
+    "Districts":"Chitwan",
+    "Sub_Group":"Sanitation Coverage (%)",
+    "Value":83.08
+  },
+  {
+    "Districts":"Dadeldhura",
+    "Sub_Group":"Total Population",
+    "Value":150224
+  },
+  {
+    "Districts":"Dadeldhura",
+    "Sub_Group":"Water Coverage Supply (%)",
+    "Value":77.51
+  },
+  {
+    "Districts":"Dadeldhura",
+    "Sub_Group":"Sanitation Coverage (%)",
+    "Value":43.08
+  },
+  {
+    "Districts":"Dailekh",
+    "Sub_Group":"Total Population",
+    "Value":267050
+  },
+  {
+    "Districts":"Dailekh",
+    "Sub_Group":"Water Coverage Supply (%)",
+    "Value":55.73
+  },
+  {
+    "Districts":"Dailekh",
+    "Sub_Group":"Sanitation Coverage (%)",
+    "Value":19.86
+  },
+  {
+    "Districts":"Dang",
+    "Sub_Group":"Total Population",
+    "Value":570603
+  },
+  {
+    "Districts":"Dang",
+    "Sub_Group":"Water Coverage Supply (%)",
+    "Value":69.25
+  },
+  {
+    "Districts":"Dang",
+    "Sub_Group":"Sanitation Coverage (%)",
+    "Value":44.11
+  },
+  {
+    "Districts":"Darchula",
+    "Sub_Group":"Total Population",
+    "Value":145003
+  },
+  {
+    "Districts":"Darchula",
+    "Sub_Group":"Water Coverage Supply (%)",
+    "Value":80.24
+  },
+  {
+    "Districts":"Darchula",
+    "Sub_Group":"Sanitation Coverage (%)",
+    "Value":16.43
+  },
+  {
+    "Districts":"Dhading",
+    "Sub_Group":"Total Population",
+    "Value":405045
+  },
+  {
+    "Districts":"Dhading",
+    "Sub_Group":"Water Coverage Supply (%)",
+    "Value":69.25
+  },
+  {
+    "Districts":"Dhading",
+    "Sub_Group":"Sanitation Coverage (%)",
+    "Value":51.43
+  },
+  {
+    "Districts":"Dhankuta",
+    "Sub_Group":"Total Population",
+    "Value":194274
+  },
+  {
+    "Districts":"Dhankuta",
+    "Sub_Group":"Water Coverage Supply (%)",
+    "Value":76.42
+  },
+  {
+    "Districts":"Dhankuta",
+    "Sub_Group":"Sanitation Coverage (%)",
+    "Value":48.64
+  },
+  {
+    "Districts":"Dhanusha",
+    "Sub_Group":"Total Population",
+    "Value":807151
+  },
+  {
+    "Districts":"Dhanusha",
+    "Sub_Group":"Water Coverage Supply (%)",
+    "Value":75
+  },
+  {
+    "Districts":"Dhanusha",
+    "Sub_Group":"Sanitation Coverage (%)",
+    "Value":23.87
+  },
+  {
+    "Districts":"Dolakha",
+    "Sub_Group":"Total Population",
+    "Value":241318
+  },
+  {
+    "Districts":"Dolakha",
+    "Sub_Group":"Water Coverage Supply (%)",
+    "Value":81.43
+  },
+  {
+    "Districts":"Dolakha",
+    "Sub_Group":"Sanitation Coverage (%)",
+    "Value":48.13
+  },
+  {
+    "Districts":"Dolpa",
+    "Sub_Group":"Total Population",
+    "Value":34744
+  },
+  {
+    "Districts":"Dolpa",
+    "Sub_Group":"Water Coverage Supply (%)",
+    "Value":69.69
+  },
+  {
+    "Districts":"Dolpa",
+    "Sub_Group":"Sanitation Coverage (%)",
+    "Value":17.64
+  },
+  {
+    "Districts":"Doti",
+    "Sub_Group":"Total Population",
+    "Value":249064
+  },
+  {
+    "Districts":"Doti",
+    "Sub_Group":"Water Coverage Supply (%)",
+    "Value":79.96
+  },
+  {
+    "Districts":"Doti",
+    "Sub_Group":"Sanitation Coverage (%)",
+    "Value":23.31
+  },
+  {
+    "Districts":"Gorkha",
+    "Sub_Group":"Total Population",
+    "Value":336518
+  },
+  {
+    "Districts":"Gorkha",
+    "Sub_Group":"Water Coverage Supply (%)",
+    "Value":70.11
+  },
+  {
+    "Districts":"Gorkha",
+    "Sub_Group":"Sanitation Coverage (%)",
+    "Value":44.15
+  },
+  {
+    "Districts":"Gulmi",
+    "Sub_Group":"Total Population",
+    "Value":343357
+  },
+  {
+    "Districts":"Gulmi",
+    "Sub_Group":"Water Coverage Supply (%)",
+    "Value":77.85
+  },
+  {
+    "Districts":"Gulmi",
+    "Sub_Group":"Sanitation Coverage (%)",
+    "Value":67.03
+  },
+  {
+    "Districts":"Humla",
+    "Sub_Group":"Total Population",
+    "Value":47730
+  },
+  {
+    "Districts":"Humla",
+    "Sub_Group":"Water Coverage Supply (%)",
+    "Value":48.4
+  },
+  {
+    "Districts":"Humla",
+    "Sub_Group":"Sanitation Coverage (%)",
+    "Value":25.83
+  },
+  {
+    "Districts":"Ilam",
+    "Sub_Group":"Total Population",
+    "Value":340185
+  },
+  {
+    "Districts":"Ilam",
+    "Sub_Group":"Water Coverage Supply (%)",
+    "Value":68.23
+  },
+  {
+    "Districts":"Ilam",
+    "Sub_Group":"Sanitation Coverage (%)",
+    "Value":67.97
+  },
+  {
+    "Districts":"Jajarkot",
+    "Sub_Group":"Total Population",
+    "Value":158752
+  },
+  {
+    "Districts":"Jajarkot",
+    "Sub_Group":"Water Coverage Supply (%)",
+    "Value":77.05
+  },
+  {
+    "Districts":"Jajarkot",
+    "Sub_Group":"Sanitation Coverage (%)",
+    "Value":25.25
+  },
+  {
+    "Districts":"Jhapa",
+    "Sub_Group":"Total Population",
+    "Value":808674
+  },
+  {
+    "Districts":"Jhapa",
+    "Sub_Group":"Water Coverage Supply (%)",
+    "Value":81.25
+  },
+  {
+    "Districts":"Jhapa",
+    "Sub_Group":"Sanitation Coverage (%)",
+    "Value":57.14
+  },
+  {
+    "Districts":"Jumla",
+    "Sub_Group":"Total Population",
+    "Value":104994
+  },
+  {
+    "Districts":"Jumla",
+    "Sub_Group":"Water Coverage Supply (%)",
+    "Value":87.95
+  },
+  {
+    "Districts":"Jumla",
+    "Sub_Group":"Sanitation Coverage (%)",
+    "Value":37.21
+  },
+  {
+    "Districts":"Kailali",
+    "Sub_Group":"Total Population",
+    "Value":791596
+  },
+  {
+    "Districts":"Kailali",
+    "Sub_Group":"Water Coverage Supply (%)",
+    "Value":88.63
+  },
+  {
+    "Districts":"Kailali",
+    "Sub_Group":"Sanitation Coverage (%)",
+    "Value":39.2
+  },
+  {
+    "Districts":"Kalikot",
+    "Sub_Group":"Total Population",
+    "Value":124552
+  },
+  {
+    "Districts":"Kalikot",
+    "Sub_Group":"Water Coverage Supply (%)",
+    "Value":79.08
+  },
+  {
+    "Districts":"Kalikot",
+    "Sub_Group":"Sanitation Coverage (%)",
+    "Value":21.86
+  },
+  {
+    "Districts":"Kanchanpur",
+    "Sub_Group":"Total Population",
+    "Value":483797
+  },
+  {
+    "Districts":"Kanchanpur",
+    "Sub_Group":"Water Coverage Supply (%)",
+    "Value":82.17
+  },
+  {
+    "Districts":"Kanchanpur",
+    "Sub_Group":"Sanitation Coverage (%)",
+    "Value":33.85
+  },
+  {
+    "Districts":"Kapivastu",
+    "Sub_Group":"Total Population",
+    "Value":590298
+  },
+  {
+    "Districts":"Kapivastu",
+    "Sub_Group":"Water Coverage Supply (%)",
+    "Value":81.01
+  },
+  {
+    "Districts":"Kapivastu",
+    "Sub_Group":"Sanitation Coverage (%)",
+    "Value":21.78
+  },
+  {
+    "Districts":"Kaski",
+    "Sub_Group":"Total Population",
+    "Value":466379
+  },
+  {
+    "Districts":"Kaski",
+    "Sub_Group":"Water Coverage Supply (%)",
+    "Value":92.23
+  },
+  {
+    "Districts":"Kaski",
+    "Sub_Group":"Sanitation Coverage (%)",
+    "Value":87.47
+  },
+  {
+    "Districts":"Kathmandu",
+    "Sub_Group":"Total Population",
+    "Value":1432290
+  },
+  {
+    "Districts":"Kathmandu",
+    "Sub_Group":"Water Coverage Supply (%)",
+    "Value":93.2
+  },
+  {
+    "Districts":"Kathmandu",
+    "Sub_Group":"Sanitation Coverage (%)",
+    "Value":93.77
+  },
+  {
+    "Districts":"Kavrepalanchowk",
+    "Sub_Group":"Total Population",
+    "Value":457184
+  },
+  {
+    "Districts":"Kavrepalanchowk",
+    "Sub_Group":"Water Coverage Supply (%)",
+    "Value":81.69
+  },
+  {
+    "Districts":"Kavrepalanchowk",
+    "Sub_Group":"Sanitation Coverage (%)",
+    "Value":71.2
+  },
+  {
+    "Districts":"Khotang",
+    "Sub_Group":"Total Population",
+    "Value":264074
+  },
+  {
+    "Districts":"Khotang",
+    "Sub_Group":"Water Coverage Supply (%)",
+    "Value":75.97
+  },
+  {
+    "Districts":"Khotang",
+    "Sub_Group":"Sanitation Coverage (%)",
+    "Value":18.14
+  },
+  {
+    "Districts":"Lalitpur",
+    "Sub_Group":"Total Population",
+    "Value":415581
+  },
+  {
+    "Districts":"Lalitpur",
+    "Sub_Group":"Water Coverage Supply (%)",
+    "Value":89.33
+  },
+  {
+    "Districts":"Lalitpur",
+    "Sub_Group":"Sanitation Coverage (%)",
+    "Value":83.69
+  },
+  {
+    "Districts":"Lamjung",
+    "Sub_Group":"Total Population",
+    "Value":207677
+  },
+  {
+    "Districts":"Lamjung",
+    "Sub_Group":"Water Coverage Supply (%)",
+    "Value":89.2
+  },
+  {
+    "Districts":"Lamjung",
+    "Sub_Group":"Sanitation Coverage (%)",
+    "Value":56.19
+  },
+  {
+    "Districts":"Mahottari",
+    "Sub_Group":"Total Population",
+    "Value":669940
+  },
+  {
+    "Districts":"Mahottari",
+    "Sub_Group":"Water Coverage Supply (%)",
+    "Value":77.69
+  },
+  {
+    "Districts":"Mahottari",
+    "Sub_Group":"Sanitation Coverage (%)",
+    "Value":17.11
+  },
+  {
+    "Districts":"Makwanpur",
+    "Sub_Group":"Total Population",
+    "Value":473861
+  },
+  {
+    "Districts":"Makwanpur",
+    "Sub_Group":"Water Coverage Supply (%)",
+    "Value":72.12
+  },
+  {
+    "Districts":"Makwanpur",
+    "Sub_Group":"Sanitation Coverage (%)",
+    "Value":48.05
+  },
+  {
+    "Districts":"Manang",
+    "Sub_Group":"Total Population",
+    "Value":13216
+  },
+  {
+    "Districts":"Manang",
+    "Sub_Group":"Water Coverage Supply (%)",
+    "Value":96.08
+  },
+  {
+    "Districts":"Manang",
+    "Sub_Group":"Sanitation Coverage (%)",
+    "Value":45.59
+  },
+  {
+    "Districts":"Morang",
+    "Sub_Group":"Total Population",
+    "Value":1019083
+  },
+  {
+    "Districts":"Morang",
+    "Sub_Group":"Water Coverage Supply (%)",
+    "Value":85.76
+  },
+  {
+    "Districts":"Morang",
+    "Sub_Group":"Sanitation Coverage (%)",
+    "Value":46.49
+  },
+  {
+    "Districts":"Mugu",
+    "Sub_Group":"Total Population",
+    "Value":52241
+  },
+  {
+    "Districts":"Mugu",
+    "Sub_Group":"Water Coverage Supply (%)",
+    "Value":81.26
+  },
+  {
+    "Districts":"Mugu",
+    "Sub_Group":"Sanitation Coverage (%)",
+    "Value":24.38
+  },
+  {
+    "Districts":"Nawalparasi",
+    "Sub_Group":"Total Population",
+    "Value":688166
+  },
+  {
+    "Districts":"Nawalparasi",
+    "Sub_Group":"Water Coverage Supply (%)",
+    "Value":83.95
+  },
+  {
+    "Districts":"Nawalparasi",
+    "Sub_Group":"Sanitation Coverage (%)",
+    "Value":47.57
+  },
+  {
+    "Districts":"Nuwakot",
+    "Sub_Group":"Total Population",
+    "Value":340579
+  },
+  {
+    "Districts":"Nuwakot",
+    "Sub_Group":"Water Coverage Supply (%)",
+    "Value":77.92
+  },
+  {
+    "Districts":"Nuwakot",
+    "Sub_Group":"Sanitation Coverage (%)",
+    "Value":31.15
+  },
+  {
+    "Districts":"Okhaldhungha",
+    "Sub_Group":"Total Population",
+    "Value":182044
+  },
+  {
+    "Districts":"Okhaldhungha",
+    "Sub_Group":"Water Coverage Supply (%)",
+    "Value":82.4
+  },
+  {
+    "Districts":"Okhaldhungha",
+    "Sub_Group":"Sanitation Coverage (%)",
+    "Value":52.2
+  },
+  {
+    "Districts":"Panchthar",
+    "Sub_Group":"Total Population",
+    "Value":237020
+  },
+  {
+    "Districts":"Panchthar",
+    "Sub_Group":"Water Coverage Supply (%)",
+    "Value":68.12
+  },
+  {
+    "Districts":"Panchthar",
+    "Sub_Group":"Sanitation Coverage (%)",
+    "Value":62.9
+  },
+  {
+    "Districts":"Parbat",
+    "Sub_Group":"Total Population",
+    "Value":181795
+  },
+  {
+    "Districts":"Parbat",
+    "Sub_Group":"Water Coverage Supply (%)",
+    "Value":88.03
+  },
+  {
+    "Districts":"Parbat",
+    "Sub_Group":"Sanitation Coverage (%)",
+    "Value":75.35
+  },
+  {
+    "Districts":"Parsa",
+    "Sub_Group":"Total Population",
+    "Value":615232
+  },
+  {
+    "Districts":"Parsa",
+    "Sub_Group":"Water Coverage Supply (%)",
+    "Value":80.17
+  },
+  {
+    "Districts":"Parsa",
+    "Sub_Group":"Sanitation Coverage (%)",
+    "Value":25.49
+  },
+  {
+    "Districts":"Pyuthan",
+    "Sub_Group":"Total Population",
+    "Value":253881
+  },
+  {
+    "Districts":"Pyuthan",
+    "Sub_Group":"Water Coverage Supply (%)",
+    "Value":88.77
+  },
+  {
+    "Districts":"Pyuthan",
+    "Sub_Group":"Sanitation Coverage (%)",
+    "Value":21.03
+  },
+  {
+    "Districts":"Ramechhap",
+    "Sub_Group":"Total Population",
+    "Value":246989
+  },
+  {
+    "Districts":"Ramechhap",
+    "Sub_Group":"Water Coverage Supply (%)",
+    "Value":79.05
+  },
+  {
+    "Districts":"Ramechhap",
+    "Sub_Group":"Sanitation Coverage (%)",
+    "Value":31.27
+  },
+  {
+    "Districts":"Rasuwa",
+    "Sub_Group":"Total Population",
+    "Value":53494
+  },
+  {
+    "Districts":"Rasuwa",
+    "Sub_Group":"Water Coverage Supply (%)",
+    "Value":89.44
+  },
+  {
+    "Districts":"Rasuwa",
+    "Sub_Group":"Sanitation Coverage (%)",
+    "Value":41.89
+  },
+  {
+    "Districts":"Rautahat",
+    "Sub_Group":"Total Population",
+    "Value":671223
+  },
+  {
+    "Districts":"Rautahat",
+    "Sub_Group":"Water Coverage Supply (%)",
+    "Value":73.8
+  },
+  {
+    "Districts":"Rautahat",
+    "Sub_Group":"Sanitation Coverage (%)",
+    "Value":17.58
+  },
+  {
+    "Districts":"Rolpa",
+    "Sub_Group":"Total Population",
+    "Value":245725
+  },
+  {
+    "Districts":"Rolpa",
+    "Sub_Group":"Water Coverage Supply (%)",
+    "Value":76.2
+  },
+  {
+    "Districts":"Rolpa",
+    "Sub_Group":"Sanitation Coverage (%)",
+    "Value":20.41
+  },
+  {
+    "Districts":"Rukum",
+    "Sub_Group":"Total Population",
+    "Value":224334
+  },
+  {
+    "Districts":"Rukum",
+    "Sub_Group":"Water Coverage Supply (%)",
+    "Value":79.05
+  },
+  {
+    "Districts":"Rukum",
+    "Sub_Group":"Sanitation Coverage (%)",
+    "Value":20.32
+  },
+  {
+    "Districts":"Rupandehi",
+    "Sub_Group":"Total Population",
+    "Value":882367
+  },
+  {
+    "Districts":"Rupandehi",
+    "Sub_Group":"Water Coverage Supply (%)",
+    "Value":91.81
+  },
+  {
+    "Districts":"Rupandehi",
+    "Sub_Group":"Sanitation Coverage (%)",
+    "Value":48.74
+  },
+  {
+    "Districts":"Salyan",
+    "Sub_Group":"Total Population",
+    "Value":250372
+  },
+  {
+    "Districts":"Salyan",
+    "Sub_Group":"Water Coverage Supply (%)",
+    "Value":57.34
+  },
+  {
+    "Districts":"Salyan",
+    "Sub_Group":"Sanitation Coverage (%)",
+    "Value":16.37
+  },
+  {
+    "Districts":"Sankhuwasabha",
+    "Sub_Group":"Total Population",
+    "Value":184845
+  },
+  {
+    "Districts":"Sankhuwasabha",
+    "Sub_Group":"Water Coverage Supply (%)",
+    "Value":80.27
+  },
+  {
+    "Districts":"Sankhuwasabha",
+    "Sub_Group":"Sanitation Coverage (%)",
+    "Value":53.39
+  },
+  {
+    "Districts":"Saptari",
+    "Sub_Group":"Total Population",
+    "Value":684101
+  },
+  {
+    "Districts":"Saptari",
+    "Sub_Group":"Water Coverage Supply (%)",
+    "Value":72.31
+  },
+  {
+    "Districts":"Saptari",
+    "Sub_Group":"Sanitation Coverage (%)",
+    "Value":19.01
+  },
+  {
+    "Districts":"Sarlahi",
+    "Sub_Group":"Total Population",
+    "Value":776694
+  },
+  {
+    "Districts":"Sarlahi",
+    "Sub_Group":"Water Coverage Supply (%)",
+    "Value":81.25
+  },
+  {
+    "Districts":"Sarlahi",
+    "Sub_Group":"Sanitation Coverage (%)",
+    "Value":17.47
+  },
+  {
+    "Districts":"Sindhuli",
+    "Sub_Group":"Total Population",
+    "Value":337913
+  },
+  {
+    "Districts":"Sindhuli",
+    "Sub_Group":"Water Coverage Supply (%)",
+    "Value":61.77
+  },
+  {
+    "Districts":"Sindhuli",
+    "Sub_Group":"Sanitation Coverage (%)",
+    "Value":21.01
+  },
+  {
+    "Districts":"Sindhupalchowk",
+    "Sub_Group":"Total Population",
+    "Value":360587
+  },
+  {
+    "Districts":"Sindhupalchowk",
+    "Sub_Group":"Water Coverage Supply (%)",
+    "Value":80.93
+  },
+  {
+    "Districts":"Sindhupalchowk",
+    "Sub_Group":"Sanitation Coverage (%)",
+    "Value":33.85
+  },
+  {
+    "Districts":"Siraha",
+    "Sub_Group":"Total Population",
+    "Value":690306
+  },
+  {
+    "Districts":"Siraha",
+    "Sub_Group":"Water Coverage Supply (%)",
+    "Value":72.03
+  },
+  {
+    "Districts":"Siraha",
+    "Sub_Group":"Sanitation Coverage (%)",
+    "Value":18.47
+  },
+  {
+    "Districts":"Solukhumbu",
+    "Sub_Group":"Total Population",
+    "Value":124447
+  },
+  {
+    "Districts":"Solukhumbu",
+    "Sub_Group":"Water Coverage Supply (%)",
+    "Value":77
+  },
+  {
+    "Districts":"Solukhumbu",
+    "Sub_Group":"Sanitation Coverage (%)",
+    "Value":39.64
+  },
+  {
+    "Districts":"Sunsari",
+    "Sub_Group":"Total Population",
+    "Value":778061
+  },
+  {
+    "Districts":"Sunsari",
+    "Sub_Group":"Water Coverage Supply (%)",
+    "Value":77.51
+  },
+  {
+    "Districts":"Sunsari",
+    "Sub_Group":"Sanitation Coverage (%)",
+    "Value":51.33
+  },
+  {
+    "Districts":"Surkhet",
+    "Sub_Group":"Total Population",
+    "Value":352516
+  },
+  {
+    "Districts":"Surkhet",
+    "Sub_Group":"Water Coverage Supply (%)",
+    "Value":77.48
+  },
+  {
+    "Districts":"Surkhet",
+    "Sub_Group":"Sanitation Coverage (%)",
+    "Value":36.53
+  },
+  {
+    "Districts":"Syangja",
+    "Sub_Group":"Total Population",
+    "Value":363205
+  },
+  {
+    "Districts":"Syangja",
+    "Sub_Group":"Water Coverage Supply (%)",
+    "Value":78.51
+  },
+  {
+    "Districts":"Syangja",
+    "Sub_Group":"Sanitation Coverage (%)",
+    "Value":68.4
+  },
+  {
+    "Districts":"Tanahu",
+    "Sub_Group":"Total Population",
+    "Value":372329
+  },
+  {
+    "Districts":"Tanahu",
+    "Sub_Group":"Water Coverage Supply (%)",
+    "Value":82.44
+  },
+  {
+    "Districts":"Tanahu",
+    "Sub_Group":"Sanitation Coverage (%)",
+    "Value":56.63
+  },
+  {
+    "Districts":"Taplejung",
+    "Sub_Group":"Total Population",
+    "Value":156398
+  },
+  {
+    "Districts":"Taplejung",
+    "Sub_Group":"Water Coverage Supply (%)",
+    "Value":71.31
+  },
+  {
+    "Districts":"Taplejung",
+    "Sub_Group":"Sanitation Coverage (%)",
+    "Value":53.82
+  },
+  {
+    "Districts":"Tehrathum",
+    "Sub_Group":"Total Population",
+    "Value":130346
+  },
+  {
+    "Districts":"Tehrathum",
+    "Sub_Group":"Water Coverage Supply (%)",
+    "Value":90.79
+  },
+  {
+    "Districts":"Tehrathum",
+    "Sub_Group":"Sanitation Coverage (%)",
+    "Value":58.13
+  },
+  {
+    "Districts":"Udayapur",
+    "Sub_Group":"Total Population",
+    "Value":352855
+  },
+  {
+    "Districts":"Udayapur",
+    "Sub_Group":"Water Coverage Supply (%)",
+    "Value":64.18
+  },
+  {
+    "Districts":"Udayapur",
+    "Sub_Group":"Sanitation Coverage (%)",
+    "Value":25.7
+  }
+]

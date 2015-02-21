@@ -1,0 +1,163 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<title>Table Data - Health and Sanitation Event Tracker</title>
+
+		<!-- Main Styslesheet -->
+		<link rel="stylesheet" href="css/style.css" />
+		<!-- Bootstrap CSS -->
+		<link href="bootstrap/bootstrap.css" rel="stylesheet">
+		<!-- Font-Awesome Icons -->
+		<link href="font_awesome/css/font-awesome.css" rel="stylesheet">
+
+		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+		<script src="bootstrap/html5shiv.min.js"></script>
+		<script src="bootstrap/respond.min.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div id="bodyWrapper">
+
+			<header>
+				<div class="container">
+					<div class="row">
+						<div>
+							<h2><i class="fa fa-users"></i> &nbsp;&nbsp;Health and Sanitation Updates Tracker</h2>
+						</div>
+					</div><!--row -->
+				</div><!--container -->
+			</header>
+
+			<nav  class="navbar navbar-default" role="navigation">
+				<div class="container">
+					<div class="row">
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle" data-toggle="collapse"
+							data-target="#example-navbar-collapse">
+								<span class="sr-only">Toggle navigation</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+						</div>
+						<div class="collapse navbar-collapse" id="example-navbar-collapse">
+							<ul class="nav navbar-nav">
+								<li>
+									<a href="index.html">HOME</a>
+								</li>
+								<li>
+									<a href="events.html">EVENT</a>
+								</li>
+								<li>
+									<a href="tableData.html">TABULAR DATA</a>
+								</li>
+								<li>
+									<a href="mapData.html">GRAPHICAL DATA</a>
+								</li>
+
+							</ul>
+						</div>
+					</div><!--row -->
+				</div><!--container -->
+			</nav>
+
+			<div id="mainContent">
+				<div class="container">
+					<div class="row">
+						<div ng-app="mainApp" ng-controller="waterSanitationController">
+
+							<table class="table table-hover">
+
+								<tbody>
+									<tr>
+										<td>
+										<div class="input-group">
+											<span class="input-group-addon"><i class="fa fa-search"></i> <b>KEYWORD SEARCH</b></span>
+											<input type="text" ng-model="keyword" class="form-control">
+										</div><!-- /input-group --></td>
+									</tr>
+									<tr>
+										<td>
+										<div class="input-group">
+											<span class="input-group-addon"><i class="fa fa-keyboard-o"></i> <b>SORT BY </b></span>
+											<select class="form-control" ng-model="sortExpression">
+												<option value="Districts">Districts</option>
+												<option value="Sub_Group">Sub_Group</option>
+												<option value="Value">Value</option>
+											</select>
+										</div></td>
+									</tr>
+
+								</tbody>
+							</table>
+
+							<hr>
+
+							<span>Total Number of available data: {{waters.length}}</span>
+
+							<hr>
+
+							<table class="table table-bordered  table-hover table-striped">
+								<caption>
+									<h3 style="font-family: cursive;color: rgb(245, 109, 26);">District Coverage of Water Supply and Sanitation (2011)</h3>
+									<span style="float: left">Data Source: <a href="http://data.opennepal.net/content/district-coverage-water-supply-and-sanitation-2011">OpenNepal</a></span>
+									<span style="text-align: center; float: right"> <b>Diagrammatic Datas:</b> <a href="mapData.html"><i style="color:#15A781;" class="fa fa-line-chart"></i> <h3 style="font-family: cursive;color: rgb(245, 109, 26);">Line Graph Representation of Data</h3></a> </span>
+								</caption>
+								<tbody>
+
+									<tr class="warning">
+										<th>District</th>
+										<th>Sub Group</th>
+										<th>Value</th>
+									</tr>
+
+									<tr ng-repeat="water in waters | filter: keyword |  orderBy:sortExpression   ">
+										<td>{{ water.Districts }}</td>
+										<td>{{ water.Sub_Group }}</td>
+										<td>{{ water.Value }}</td>
+									</tr>
+								</tbody>
+							</table>
+
+						</div>
+					</div><!-- row -->
+				</div><!-- container -->
+			</div><!-- mainContent -->
+
+			<footer>
+				<div class="container">
+					<div class="row">
+						<div id="liscene">
+							<p>
+								No any copyright &copy;. This application is under  OPEN LISCENSE.
+							</p>
+						</div>
+					</div><!-- row -->
+				</div><!-- container -->
+			</footer>
+
+		</div><!-- bodyWrapper -->
+
+		<!-- Angular JavaScript -->
+		<script src="js/angular.min.js"></script>
+		<script src="js/angular-route.min.js"></script>
+		<!-- Main Application -->
+		<script src="js/mainApp.js"></script>
+		<!-- Controllers -->
+		<script src="js/waterSanitationController.js"></script>
+		<!-- Main Script -->
+		<script src="js/mainScript.js"></script>
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script src="js/jquery.min.js"></script>
+		<!-- Include all compiled plugins (below), or include individual files as needed -->
+		<script src="js/bootstrap.js"></script>
+
+	</body>
+</html>
